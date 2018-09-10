@@ -11,6 +11,8 @@
 
 //* Begin of tests
 const assert = require('assert')
+var obj = {str : '1337',bool : false,undef : undefined,num : 42};
+
 
 assert.strictEqual(typeof obj, 'object')
 
